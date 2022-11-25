@@ -5,9 +5,8 @@ import { Box } from '@chakra-ui/react';
 export default function page() {
     return (
 
-        <Box w='400px' h='400px' bg='brand.900'>
-            {/* <Box w='400px' h='400px' bg='brand.900'>//This works */}
-            this is a box
+        <Box w='400px' h='400px' bg='newColor'>
+            this box should be pink
         </Box>
     )
 }
