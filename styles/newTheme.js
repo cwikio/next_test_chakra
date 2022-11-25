@@ -1,6 +1,6 @@
 import { extendTheme } from "@chakra-ui/react"
 
-//this does not work
+//the code below does not work for both pages and app folder examples
 // const newTheme = extendTheme({
 //     colors: {
 //         newColor: {
@@ -9,7 +9,7 @@ import { extendTheme } from "@chakra-ui/react"
 //     },
 // })
 
-//this works!
+//the code below works for pages folder but not for app!
 
 const newTheme = extendTheme({
     colors: {
